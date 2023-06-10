@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Condensed&family=Lato&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images\Group (1).png" type="image/x-icon">
+    <title>Join waitlist page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="sign">
+    <div class="blues">
+        
+    </div>
+   <header class="nav">
+    <a href="home.html"><img class="logo" src="images\Logo.svg" alt=""></a>
+    <a class="home" href="home.html">Home</a>
+   </header> 
+   <section class="signup">
+    <h2>Get started</h2>
+    <form  id="form">
+        <label for="">First Name</label><br>
+        <input type="text" name="first_name" required><br>
+        <label for="">Last Name</label><br>
+        <input type="text" name="last_name" required><br>
+        <label for="">Phone number </label><br>
+        <input type="text" name="username" required ><br>
+        <label for="">Email</label><br>
+        <input type="email" name="email" id="data" required><br>
+        <label for="">Password</label><br>
+        <input type="password" id="password1" name="password1" required>
+        <span class="see " onclick="showPassword()">show</span><br>
+        <label for="">Confirm password</label><br>
+        <input type="password" id="password2" name="password2" required><br>
+        <input class="check" type="checkbox" name="" id="check" required>
+        <label for="" class="terms"> I have read, understood and agree to prestige finance</label>
+        <br><span><a href="policy.html">Privacy Policy</a> and <a href="terms.html">Terms and Condition</a></span>
+        <span class="hide" onclick="showPassword2()" >show</span>
+        <p id="error"></p>
+        <button type="submit">Sign up</button>
+        
+    </form>
+   </section>
+   <div class="blues1"></div>
+   <script src="sign.js"></script>
+</body>
+</html>

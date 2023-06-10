@@ -1,0 +1,712 @@
+body {
+    max-width: 100%;
+    font-family: 'Cabin Condensed', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+nav {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    margin: 0;
+    padding: 1% 2%;
+    z-index: 1;
+  }
+.log, .topnav a {
+    float: right;
+    text-align: center;
+    padding: 1% 2%;
+    text-decoration: none;
+    margin: 0;
+    color: #000;
+}
+
+nav .active {
+    background-color: #001C82;
+    color:#fff;
+    border-radius: 6px;
+    outline: none;
+    margin-right: 8rem;
+}
+nav .login, .log {
+    color: #001C82;
+    display: none;
+}
+.logo{
+    margin: 1% 1%;
+    height: 40px;
+}
+.topnav{
+    margin: 0;
+    display: inline;
+}
+.icon {
+   display: none;
+   float:right;
+   
+  }
+.sect1{
+    justify-content: center;
+    padding:4%;
+    text-align: center;
+    align-items: center;
+    padding: 2% 3%;
+}
+.one{
+    margin-top: 8%;
+}
+.sect1 h1, .sect6 h2, .sect2 h1, .sect3 h1, .sect4 h1, .sect5 h1 {
+   font-size: 42px;
+}
+.btn{
+    height: 40px;
+    width: 12%;
+    background-color: #001C82;
+    color:#fff;
+    margin-top: 1%;
+    border-radius: 6px;
+    border: #001C82;
+    outline:none;
+}
+.btn:hover{
+    background-color: #1754c5;
+}
+.apple{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    position: relative;
+    justify-content: center;
+    margin:4%;
+    margin-top: 3%;
+    }
+
+.pimg{
+    height: 50px;
+}
+.numbers {
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+  gap: 40px;
+  background-color: #2C75FB;
+  border-radius: 16px;
+  color: #fff;
+  margin-bottom: 8%;
+  width: 60%;
+  position: relative;
+  left:20%;
+  padding: 1%;
+}
+.numbers h2 {
+    font-size: 28px;
+    margin-top: 0;
+}
+.num1{
+    margin: 0 4%;
+}
+.num1 p{
+    margin: 0;
+}
+.colcon{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+.col {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(211, 206, 206);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 10px 12px;
+    width:32%;
+    box-sizing: border-box;
+    line-height: 20px;
+}
+.col img {
+    height: 90px;
+}
+#fas{
+    position:absolute;
+    bottom:6.5rem;
+    left: 30.5%; 
+    height: 40px;
+}
+#fa{
+    position:absolute;
+    bottom:6.5rem;
+    right: 33%; 
+    height: 40px;
+}
+.down, .down2 {
+    position: absolute;
+    display: none;
+}
+.sect2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    gap: 20px;
+    background-color: #D5E3FE;
+}
+.dist {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    gap: 200px;
+}
+.dist img {
+    margin-top: 30px;
+    height: 620px;
+}
+.sect2 h1 {
+    text-align: center;
+    margin: 0;
+}
+.stat1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 18px;
+}
+.stat {
+    display: flex;
+    flex-direction: row;
+    padding: 3px;
+    gap: 17px;
+}
+.stat img{
+    height: 85px;
+}
+.sect3 h1{
+    text-align: center;
+    margin: 28px 15px;
+}
+.sect3 p {
+    color:blue;
+    text-align: center;
+}
+.price {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 5%;
+    gap: 25px;
+    margin:0;
+    
+}
+.price .p1 {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(211, 206, 206);
+    border-radius: 8px;
+    padding: 2%;
+}
+.p1 h3 {
+    color: blue;
+    margin:0;
+    font-size: 25px;
+    padding:0;
+}
+.p1 ul{
+    padding:18px;
+    margin: 0;
+}
+.p1 li{
+    margin: 0;
+}
+.sect4{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.sectdrop {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    justify-content: center;
+    padding: 0%;
+    margin:0;
+}
+.dropdown{
+    padding: 1% 2%;
+    margin: 0 6%;
+}
+.drop, .drop1, .drop2, .drop3 {
+    border: 1px solid rgb(211, 206, 206);
+    border-radius: 10px;
+    padding: 2% 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    width: 80%;
+    margin-left: 10%;
+}
+.drop {
+    gap: 27.5%;
+}
+.drop1 {
+    gap: 90px;
+}
+.drop2 {
+    gap: 22.5%;
+}
+.drop3 {
+    gap: 122px;
+}
+.drop p, .drop1 p, .drop2 p, .drop3 p{
+    margin: 0;
+    
+}
+.drop .fa-solid, .drop1 .fa-solid, .drop2 .fa-solid, .drop3 .fa-solid{
+    color:blue;
+}
+.dropbtn{
+    height: 20px;
+}
+
+.dropdown-content{
+    display:none;
+    border: 1px solid rgb(211, 206, 206);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 80%;
+    margin-left: 10%;
+}
+.show {
+    display: block;
+}
+/* customer testimonial*/
+.sect5 {
+    text-align: center;
+    background-color:#D5E3FE;
+    padding: 3% 3%;
+    margin-top: 10%;
+}
+.sect5 h3 {
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+}
+.mySlides {
+    display: none;
+}
+#defaultOpen{
+    display: block;
+}
+.test1 {
+    background-color: #001C82;
+    color:#fff;
+    position: relative;
+    left: 1%;
+    bottom: 3.2rem;
+    display: inline-block;
+    justify-content: center;
+    padding: 2% 3%;
+    border-radius: 10px;
+}
+.test2 {
+    background-color: #fff;
+    position: relative;
+    right:2%;
+    bottom: 1rem;
+    display: inline-block;
+    padding: 2% 2%;
+    justify-content: center;
+    border-radius: 10px;
+    width: 35%;
+}
+.test2 h3 {
+    font-size: 20px;
+    position: relative;
+    left: 1%;
+}
+.fa-chevron-left{
+    color: #001C82;
+    background-color: #8baff1;
+    border-radius: 50%;
+    position: relative;
+    right: 40%;
+    top: 8rem;
+    font-size: 10px;
+    padding: 2%;
+}
+.fa-chevron-right{
+    color:#001C82;
+    background-color: #8baff1;
+    border-radius: 50%;
+    position: relative;
+    left: 40%;
+    bottom: 10rem;
+    font-size: 10px;
+    padding: 2%;
+}
+.sect6 {
+    padding: 3% 8%;
+    position: relative;
+}
+.sect6 input, textarea {
+    margin: 2% 0;
+    height:10px;
+    border-radius: 9px;
+    padding: 2% 3%;
+    border: 1px solid rgb(211, 206, 206);
+    width: 35%;
+}
+.sect6 textarea {
+    border-radius: 10px;
+    height: 70px;
+}
+.sect6 button {
+    width: 15%;
+    background-color: #001C82;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    height: 35px;
+    margin: 2% 0;
+}
+.sect6 img{
+    width: 40%;
+    position: absolute;
+    right: 5%;
+    top: 10rem;
+}
+footer {
+    background-color:#001c82;
+    padding: 2% 3%;
+    justify-content: center;
+    color:#fff;
+    text-align: center;
+    align-items: center;
+}
+footer h2 {
+    font-size: 20px;
+    margin:0;
+    padding: 0;
+}
+.foot1 img {
+    width: 50%;
+    margin: 0;
+}
+.conicon{
+    margin-left: 4%;
+}
+.conicon .for {
+    position: relative;
+    right: 14%;
+    color: #061a66;
+    background-color: #b9cae9;
+    border-radius: 45%;
+    padding: 4%;
+    font-size: 17px;
+}
+.foot1 .cam {
+   position: relative;
+   left: 60%;
+   bottom: 1.4rem; 
+}
+.foot1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+    width: 60%;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+footer a:hover {
+    color:#b9cae9;
+}
+/* sign-up form */
+.sign {
+  width:100%;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+.blues1 {
+  background-color: #1754c5;
+  height: 90px;
+}
+.home {
+   text-decoration: none;
+   float:right;
+   margin:2% 8%;
+   background-color: #061a66;
+   color: #fff;
+   border-radius: 6px;
+   padding: 1%;
+}
+.signup a{
+    text-decoration: none;
+}
+#check {
+    height: 15px;
+    width: 20px ;
+    margin: 0;
+}
+.signup {
+    padding-left:40%;
+    align-items: center;
+}
+#error {
+    color: red;
+    font-size: 10px;
+    margin:0;
+}
+span{
+ margin-left: 30px;
+ }
+.signup h2 {
+    font-size: 22px;
+}
+.signup input {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #001C82;
+    height: 30px;
+    width: 30%;
+    padding:0 2%;
+}
+.signup input:valid {
+    background-color: #bdcdeb;
+}
+.signup button {
+    width: 25%;
+    margin: 1% 4% 2%;
+    background-color: #001C82;
+    color: #fff;
+    border:1px solid #001C82;
+    border-radius: 6px;
+    height: 30px;
+}
+.see{
+    position: relative;
+    right: 10%;
+    bottom:45%;
+    cursor: pointer;
+}
+.hide {
+    position: relative;
+    left: -14.5%;
+    bottom: 3.2rem;
+    cursor:pointer;
+}
+/* thanks */
+.thanks {
+    align-items: center;
+    padding: 2% 4%;
+    text-align: center;
+}
+.thanks h1 {
+    font-size: 40px;
+}
+@media (max-width: 600px){
+body {box-sizing: border-box;
+}
+nav {
+    overflow-x: hidden;
+    padding: 2% 0;
+}  
+    .topnav a {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+    .topnav.responsive {position: relative;
+      align-items: center;
+    }
+ nav .icon {
+        display: block;
+        margin-right: 15px;
+        color:#000;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+ }
+   .logo {
+    height: 25px;
+    margin-left: 5%;
+  }
+  nav .active {
+    margin-right: 0;
+  }
+.sect6 h2, .sect2 h1, .sect3 h1, .sect4 h1, .sect5 h1 {
+    font-size: 29px;
+}
+.sect1 h1 {
+    font-size: 38px;
+}
+.sect1 {
+    padding: 3% 4%;
+    margin-top: 7%;
+
+}
+.sect1 button {
+    font-size: 12px;
+    right: 1%;
+    bottom: 0.1rem;
+    width: 30%;
+  }
+.fa-chevron-left{
+   position: relative;
+    top: 2.4rem;
+  }
+.sect6 img {
+    position: absolute;
+    right: 5%;
+    top: 110rem;
+  }
+.apple {
+    gap:10px;
+    margin: 5% 0;
+  }
+.pimg {
+    height: 30px;
+  }
+.sect1 .numbers {  
+   width: 98%;
+   gap:0;
+   left: 0;
+   border-radius:15px;
+   padding: 4px;
+   margin-left: 5px;
+   margin-top: 8%;
+  }
+  .num1{
+    margin: 5px;
+  }
+.numbers h2, .sect2 h2, .sect3 h3 {
+    font-size: 22px;
+  }
+.colcon {
+    flex-direction: column;
+    gap:0;
+    margin-left: 30px;
+    justify-content: center;
+  }
+  .col {
+    justify-content: center;
+    width: 80%;
+  }
+ #fa, #fas {
+    display: none;
+    
+  }
+ .down{
+    display: flex;
+    right: 55%;
+    bottom: 63%;
+    height: 40px;
+ }
+ .down2 {
+    display: flex;
+    right: 55%;
+    bottom:29%;
+    height: 40px;
+ }
+ .dist, .price {
+    flex-direction: column;
+ }
+ .dist {
+    gap: 70px;
+ }
+  .sect5 h3, .foot2 h2{
+    margin: 0;
+    font-size: 12px;
+ }
+.dropdown{
+    padding: 2% 0;
+    font-size: 14px;
+    margin: 0 2%;
+    width:98%;
+}
+.drop {
+    gap: 3rem;
+    padding: 1% 2%;
+}
+.drop1, .drop2, .drop3 {
+    gap: 3px;
+    padding: 1% 2%;
+ }
+footer p, .signup span, .terms, .conicon .for{
+    font-size: 10px;
+ }
+ .sect5 p, .num1 p{
+    font-size: 12px;
+ }
+ .test1{
+    display:none
+ }
+
+ .test2{
+    padding: 2% 3px;
+    width: 65%;
+ }
+ .fa-chevron-left{
+    right: 10rem;
+    top: 5rem;
+ }
+ .fa-chevron-right{
+    left: 9rem;
+    bottom: 8rem;
+ }
+ .sect6 img{
+    display:none;
+ }
+  .foot1 .cam{
+    bottom: 1.1rem;
+ }
+ .foot1 img {
+    width: 70%;
+ }
+ #check {
+    width: 10px;
+    height:10px;
+ }
+ .signup input {
+    width: 60%;
+ }
+ .signup span{
+    margin-left:3%;
+ }
+ .see {
+    right:18%;
+ }
+ .hide{
+    left:-2rem;
+    bottom: 3.5rem;
+ }
+ .signup {
+    padding-left: 25%;
+ }
+ .signup button {
+    margin-left: 16%;
+    width:40%;
+ }
+ .sect6 input, textarea{
+    width: 70%;
+ }
+.sect6 button{
+    width: 40%;
+}
+}
